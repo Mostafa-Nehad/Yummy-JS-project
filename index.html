@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/logo.png">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Yummy</title>
+</head>
+<body>
+    <aside>
+      <div class="left-side">
+        <div>
+          <nav>
+          <ul class="pt-2">
+            <li><a href="#" onclick="navigate('search')">Search</a></li>
+            <li><a href="#" onclick="navigate('categories')">Categories</a></li>
+            <li><a href="#" onclick="navigate('areas')">Area</a></li>
+            <li><a href="#" onclick="navigate('ingredients')">Ingredients</a></li>
+            <li> <a href="#" onclick="navigate('contact')">Contact Us</a></li>
+          </ul>
+        </nav>
+
+        <div class="copyright">
+          <ul>
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-globe"></i></a></li>
+          </ul>
+          <p>Copyright Â&copy; 2019 All Rights <br/> Reserved.</p>
+        </div>
+        </div>
+      </div>
+      <div class="right-side">
+        <button class="home"><img class="pt-3" src="img/logo.png" alt="Yummy"></button>
+        <button class="slide"><i class="fa-solid fa-bars"></i></button>
+        <ul>
+          <li><a href="#"><i class="fa-solid fa-globe"></i></a></li>
+          <li><a href="#"><i class="fa-solid fa-share-nodes"></i></a></li>
+        </ul>
+      </div>
+    </aside>
+
+      <main>
+      <section>
+        <div class="container">
+          <div class="spinner">
+            <span class="loader"></span>
+          </div>
+          <div id="searchPage"></div>
+          <div id="mainContainer" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4"></div>
+        </div>
+      </section>
+    </main>
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
